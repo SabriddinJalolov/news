@@ -1,0 +1,35 @@
+.header {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        h3 {
+            font-weight: 500;
+            color: #000;
+        }
+
+        & form {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            input {
+                // max-width: 00px;
+                width: 626px;
+                height: 40.13px;
+                background: #04594D;
+                outline: none;
+                border: none;
+                color: #fff;
+                padding-left: 20px;
+                height: 43px;
+
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.myNav {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+
+    background: #1A1A1A;
+    color: #FDFDFD;
+
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        padding: 20px 30px !important;
+        background: #1A1A1A;
+
+        color: white !important;
+        display: inline-block;
+        padding: 20px 30px !important;
+    }
+
+    a:hover {
+        background: #04594D;
+        cursor: pointer;
+    }
+
+}
